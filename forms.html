@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+
+<body>
+
+    <h2>FORMS IN HTML: </h2>
+    <form action="mailto: registrar@ipec.org.in" method="POST" enctype="text/plain">
+        <div>
+            <label for="name">NAME: </label>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="rollno">ROLL NO :</label>
+            <input type="number" name="myroll" id="rollno">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email: </label>
+            <input type="text" name="myemail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="bonus">BONUS: </label>
+            <input type="number" name="mybonus" id="bonus">
+        </div>
+        <br>
+        <div>
+            <label for="date">DATE: </label>
+            <input type="date" name="mydate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="eligiblity">Are you ELIGIBLE?? </label>
+            <input type="checkbox" name="myeligiblity" id="eligiblity" checked>
+        </div>
+        <br>
+        <div>
+            <label for="gender">GENDER : </label>
+            Male <input type="radio" name="mygender" id="gender" value="male">
+            Female <input type="radio" name="mygender" id="gender" value="female">
+            Other <input type="radio" name="mygender" id="gender" value="other">
+        </div>
+        <br>
+        <div>
+            <label for="car">WHICH CAR?? :</label>
+            <select name="mycar" id="car">
+                <option value="Audi" selected>Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Mercedes-Benz">Mercedes-Benz</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="text">Write Your Text Here : </label><br>
+            <textarea name="mytext" id="text" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
